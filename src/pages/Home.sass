@@ -1,0 +1,41 @@
+.home
+  position: relative
+  width: 100%
+  height: 100vh
+  background: url('https://images.unsplash.com/photo-1614064641938-bc1e8ba5b26f?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover
+  display: flex
+  align-items: center
+  justify-content: center
+  color: white
+  text-align: center
+
+.overlay
+  position: absolute
+  width: 100%
+  height: 100%
+  background: rgba(0, 0, 0, 0.5)
+
+.home-content
+  z-index: 2
+  max-width: 800px
+
+h1
+  font-size: 3rem
+  margin-bottom: 1rem
+
+.typing-animation
+  font-size: 1.5rem
+  margin-bottom: 2rem
+
+.home-button
+  background-color: #00ADB5
+  color: white
+  border: none
+  padding: 12px 30px
+  border-radius: 30px
+  cursor: pointer
+  font-size: 1rem
+  transition: background-color 0.3s ease
+
+  &:hover
+    background-color: #007e85

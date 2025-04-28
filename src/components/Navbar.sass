@@ -1,0 +1,42 @@
+.navbar
+  position: fixed
+  bottom: 10px // Adjust the distance from the bottom if necessary
+  left: 50%
+  transform: translateX(-50%) // This centers the navbar horizontally
+  background: #222
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 30px
+  padding: 1rem 2rem
+  z-index: 9999
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5)
+  max-width: 90% // Prevents navbar from stretching too wide on larger screens
+
+  a
+    color: #ffffff
+    font-size: 1.2rem
+    font-weight: bold
+    text-decoration: none
+    margin: 0 1.5rem
+    transition: color 0.3s ease
+
+    &:hover
+      color: #00ffaa
+
+  @media screen and (max-width: 768px)
+    a
+      font-size: 1rem
+      margin: 0 1rem
+
+  @media screen and (max-width: 480px)
+    a
+      font-size: 0.9rem
+      margin: 0 0.8rem
+
+
+
+
+
+
+
